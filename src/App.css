@@ -1,0 +1,91 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+
+  background: rgb(224, 223, 223);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.315);
+  border-radius: 6px; 
+  background-color: rgb(181, 184, 184);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7); /* Darker on hover for better visibility */
+}
+.design-scroll::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+
+}
+.design-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.design-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.315);
+  border-radius: 6px; 
+}
+.design-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7); /* Darker on hover for better visibility */
+}
+.scrollbar-videoSection::-webkit-scrollbar{
+width: 5px;
+}
+.scrollbar-videoSection::-webkit-scrollbar-track {
+  background: transparent;
+  background-color: transparent;
+}
+
+.removeSideBar ul li p {
+  display: none;
+}
+.removeImg{
+  display: none;
+}
+.last{
+  display: none;
+}
+.noe{
+  display: none;
+}
+.number-sh{
+  box-shadow: 0px 0px 9px #53a5f794;
+}
+.clip-path{
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid purple;
+  display: flex;
+  
+}
+.avoid-break{
+  break-inside: avoid;
+}
+.transition{
+  transition: all 0.7s linear;
+}
+.calender {
+  overflow: auto; /* Enables scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.calender::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.shadowCss{
+  box-shadow: 0 0 10px 2px rgb(236, 236, 236);
+}
+.bl-shadow{
+  box-shadow: 0px 0px 20px 0px rgb(158, 157, 157);
+}
+.course-shadow{
+  box-shadow: 10px 10px 10px rgb(155, 154, 154) ;
+}
+.bg-img-course-bar{
+  background-image: url("https://vulms.vu.edu.pk/App_Themes/Default/Images/bg/bg-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
