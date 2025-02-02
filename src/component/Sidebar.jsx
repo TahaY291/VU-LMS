@@ -24,7 +24,6 @@ function Sidebar() {
 
     const [sidBar, setSidBar] = useState(false);
     const [mdSidBar, setMdSidBar] = useState(false);
-    const sidebarRef = useRef(null);
 
     const handleClick = () => {
         setIndex(!mdSidBar);
@@ -36,6 +35,7 @@ function Sidebar() {
     }
     function closePlayer() {
         sidebarSet();
+        setIndex(false);
     }
 
     return (
